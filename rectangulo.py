@@ -14,5 +14,3 @@ class Rectangulo:
 
     def area(self):
         return self.base() * self.altura()
-
-
