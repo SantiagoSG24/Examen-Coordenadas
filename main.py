@@ -60,6 +60,7 @@ print(f"D: {D}")
 
 print("\nCuadrantes:")
 print(f"A: {A.cuadrante()}")
+print(f"B: {B.cuadrante()}")
 print(f"C: {C.cuadrante()}")
 print(f"D: {D.cuadrante()}")
 
@@ -81,24 +82,3 @@ rectangulo = Rectangulo(A, B)
 print(f"Base: {rectangulo.base()}")
 print(f"Altura: {rectangulo.altura()}")
 print(f"Área: {rectangulo.area()}")
-
-
-
-
-
-# Crear puntos fácilmente
-print("\nCreación de puntos fácilmente:")
-x, y = map(int, input("Introduce las coordenadas del punto separadas por un espacio (x y): ").split())
-nuevo_punto = Punto(x, y)
-print(f"Nuevo punto creado: {nuevo_punto}")
-
-
-
-
-
-
-# Determinar el cuadrante de un punto ingresado por el usuario
-print("\nDeterminar cuadrante de un punto:")
-x, y = map(int, input("Introduce las coordenadas del punto separadas por un espacio (x y): ").split())
-punto_usuario = Punto(x, y)
-print(f"El punto {punto_usuario} está en: {punto_usuario.cuadrante()}")

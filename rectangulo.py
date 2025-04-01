@@ -1,3 +1,6 @@
+import math
+from punto import Punto 
+
 class Rectangulo:
     def __init__(self, punto_inicial=Punto(), punto_final=Punto()):
         self.punto_inicial = punto_inicial
@@ -11,3 +14,5 @@ class Rectangulo:
 
     def area(self):
         return self.base() * self.altura()
+
+
